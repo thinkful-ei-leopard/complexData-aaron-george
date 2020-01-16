@@ -55,8 +55,8 @@ function displayResults(responseJson, maxResults) {
       `<li><h3>${responseJson.data[i].fullName}</h3>
       <p>${responseJson.data[i].description}</p>
       <a href=${responseJson.data[i].url}>Link Here</a>
-      </li>`
-    )};
+      </li>`);
+  }
 }
 
 //display the results section  
@@ -77,4 +77,4 @@ function watchForm() {
   });
 }
 
-$(watchForm)
+$(watchForm);
